@@ -1,0 +1,30 @@
+[
+    {
+        "web_name": "机场名称",
+        "web_home": "主页url",
+        "login_url": "登录url(不包括主页url部分)",
+        "checkin_url": "签到url(不包括主页url部分)",
+        "logout_url": "登出url(不包括主页url部分)",
+        "login_is_json": 登录请求是否json请求, 一般为false(填true或false, 不需要引号),
+        "account": "账号",
+        "password": "密码",
+        "bark": {
+            "key": "bark 通知的key",
+            "sound": "bark 通知的铃声"
+        }
+    },
+    {
+        "web_name": "举例子",
+        "web_home": "https://example.com",
+        "login_url": "/auth/login",
+        "checkin_url": "/user/checkin",
+        "logout_url": "/user/logout",
+        "login_is_json": false,
+        "account": "example@example.com",
+        "password": "password",
+        "bark": {
+            "key": "abcdefghijkl",
+            "sound": "example"
+        }
+    }
+]
