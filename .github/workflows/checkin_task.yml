@@ -6,10 +6,10 @@ on:
   gollum:
   workflow_dispatch:
   schedule:
-    - cron: '22 8 * * *'
+    - cron: '22 0 * * *'
 
 jobs:
-  checkin_task:
+  deploy:
     runs-on: ubuntu-18.04
     steps:
     - uses: actions/checkout@v2
